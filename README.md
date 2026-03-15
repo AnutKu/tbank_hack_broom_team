@@ -40,13 +40,6 @@ supplier_room_name → нормализация → фичи → LightGBM → P(
 | v2 | + target encoding + token priors + centroid sim | улучшение PR-AUC |
 | **v3** | **+ fuzzy Jaccard within-hotel matching** | **лучший PR-AUC** |
 
-### Гиперпараметры LightGBM (v3)
-
-```python
-n_estimators=800, learning_rate=0.03, num_leaves=64,
-subsample=0.8, colsample_bytree=0.8, reg_lambda=1.0
-```
-
 ## Интерпретация (SHAP)
 
 Проведён SHAP-анализ (waterfall plots) для трёх кейсов:

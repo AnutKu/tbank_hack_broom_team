@@ -81,3 +81,8 @@ supplier_room_name → нормализация → фичи → LightGBM → P(
 pip install pandas numpy scikit-learn lightgbm sentence-transformers shap matplotlib
 jupyter notebook clear_ai_hackathon.ipynb
 ```
+
+### Участники команды
+- Андреев Олег 
+- Курдина Анна
+- Иван Мрасов
